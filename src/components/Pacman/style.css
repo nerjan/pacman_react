@@ -17,9 +17,9 @@
 }
 
 .pacman-up {
-    transform: rotateY(-90deg);
+    transform: rotate(-90deg);
 }
 
 .pacman-down {
-    transform: rotateY(90deg);
+    transform: rotate(90deg);
 }

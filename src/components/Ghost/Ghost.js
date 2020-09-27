@@ -21,6 +21,7 @@ class Ghost extends Component {
 
     componentWillMount(){
         clearInterval(this.changeDirectionInterval);
+        clearInterval(this.moveInterval);
     }
 
     changeDirection = () => {
